@@ -1,0 +1,26 @@
+<html>
+<body>
+<form method="post" action="datos_alumno.php">
+  <fieldset>
+    <legend>DATOS DEL ALUMNO:</legend>
+    Introduzca su nombre: <input type="text" name="nombre"><br><br>
+    Introduzca su teléfono: <input type="text" name="telefono"><br><br>
+    Matriculado <input type="checkbox" name="matriculado" value="si"><br><br>
+
+    Enseñanza:<br>
+    <input type="radio" name="ensenanza" value="secundaria">Secundaria
+    <input type="radio" name="ensenanza" value="bachillerato">Bachillerato<br>
+    <input type="radio" name="ensenanza" value="un ciclo medio">Ciclo Medio
+    <input type="radio" name="ensenanza" value="un ciclo superior">Ciclo Superior<br><br>
+
+    Mostrar datos:
+    <select name="mostrar">
+      <option value="pantalla">Por Pantalla</option>
+      <option value="archivo">En Archivo datos.txt</option>
+    </select><br><br>
+
+    <input type="submit" value="Enviar datos">
+  </fieldset>
+</form>
+</body>
+</html>
